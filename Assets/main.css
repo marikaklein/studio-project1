@@ -1,0 +1,33 @@
+.text {
+	position: absolute;
+	width: 759px;
+	height: 113px;
+	left: 340px;
+	top: 300px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.text span {
+  background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 25px;
+}
